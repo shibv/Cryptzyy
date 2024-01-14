@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.png';
 import { GoSun } from "react-icons/go";
 import { IoMoonOutline } from "react-icons/io5";
 import { useSelector } from 'react-redux';
