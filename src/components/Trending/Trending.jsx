@@ -79,7 +79,7 @@ const Trending = (props) => {
                     trendingName={eachCoin.name}
                     trendingImg={eachCoin.image}
                     id = {eachCoin.id}
-                    onClick={() => navigate(`/coins/${props.id}`)} 
+                    onClick={() => navigate(`/coins/${eachCoin.id}`)} 
                      />
                    
                 )
