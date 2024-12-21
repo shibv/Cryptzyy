@@ -22,7 +22,7 @@ const Navbar = ({ themeStatus, onSetTheme }) => {
         <img className="h-8 w-8" src={Logo} alt="" />
         <h2 className="text-2xl  font-bold "> Cryptzy </h2>
       </div>
-
+      
       <div className="flex items-center gap-4">
         {themeStatus ? (
           <GoSun className="text-3xl cursor-pointer" onClick={onSetTheme} />
